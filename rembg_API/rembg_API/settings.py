@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ms_x0zecf&aq8mr2#51#v@1(57_yqunlnj*jg0nf%4#-)#2s@o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.1.220',]
 
 
 # Application definition
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'file_uploader.apps.FileUploaderConfig',
+    'bot.apps.BotConfig',
 ]
 
 MIDDLEWARE = [
